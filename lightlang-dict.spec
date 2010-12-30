@@ -11,6 +11,7 @@ Group: Office
 URL: http://lightlang.org.ru
 Source: %{name}-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
+BuildArch:	noarch
 
 Requires: lightlang
 
