@@ -8,10 +8,10 @@ Version:	%{version}
 Release:	%{release}
 License: GPL2+
 Group: Office
-URL: http://lightlang.org.ru
+URL: http://code.google.com/p/lightlang/
 Source: %{name}-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
-BuildArch:	noarch
+BuildArch: noarch
 
 Requires: lightlang
 
@@ -34,7 +34,6 @@ cp ./* %{buildroot}/%{_datadir}/sl/dicts
 
 %clean
 %{__rm} -rf %{buildroot}
-
 
 
 %files
