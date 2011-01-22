@@ -1,5 +1,5 @@
 %define version 0.0.1
-%define	rel	3
+%define	rel	4
 %define release %mkrel %{rel}
 
 Summary: Dictionary for LightLang
