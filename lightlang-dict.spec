@@ -1,5 +1,5 @@
 %define version 0.0.2
-%define	rel	1
+%define	rel	2
 %define release %mkrel %{rel}
 
 Summary: Dictionary for LightLang
@@ -23,11 +23,7 @@ Dictionary for LightLang
 
 %install
 %{__rm} -rf %{buildroot}
-mkdir %{buildroot}
-mkdir %{buildroot}/usr
-mkdir %{buildroot}/usr/share
-mkdir -p %{buildroot}/%{_datadir}/sl
-mkdir %{buildroot/%{_datadir}/sl/dicts
+mkdir -p %{buildroot}/%{_datadir}/sl/dicts
 cp ./* %{buildroot}/%{_datadir}/sl/dicts
 
 %build
@@ -38,5 +34,4 @@ cp ./* %{buildroot}/%{_datadir}/sl/dicts
 
 %files
 %defattr(-, root, root, 0755)
-
 %{_datadir}/sl/dicts/*
