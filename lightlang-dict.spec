@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 License: GPL2+
 Group: Office
-URL: http://code.google.com/p/lightlang/
+URL: https://code.google.com/p/lightlang/
 Source: %{name}-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
