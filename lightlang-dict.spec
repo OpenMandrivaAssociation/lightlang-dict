@@ -1,6 +1,6 @@
 %define version 0.0.2
 %define	rel	2
-%define release %mkrel %{rel}
+%define release %{rel}.1
 
 Summary: Dictionary for LightLang
 Name: lightlang-dict
